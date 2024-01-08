@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+body{
+    font-family: Open Sans;
+    background-color: var(--Violet);
+   background-image: url("file:///C:/Users/Hp_Bell/Videos/ProjectM(huddle)4/images/bg-desktop.svg");
+}
+.logo{
+    margin: 29px;
+}
+.imgconent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+}
+.imgconent img{
+width:50%;
+height:50%;
+margin-left: 40px;
+}
+.inline{
+    display: block;
+    height: 200px;
+    line-height: 1.5rem;
+    margin-left: 40px;
+
+}
+h1,p{
+    color: white; 
+     font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    line-height: 2.7rem;
+    max-width: 450px;
+    margin-top: -60px;
+    font-size: 40px;
+  
+}
+p{
+opacity: 0.7;
+margin-top: 15px;
+}
+button{
+margin-top: 15px;
+
+    padding: 6px;
+    width:100px;
+    height: 30px;
+    color: var(--Violet);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2 ) ;
+ 
+}
+button:hover{
+    background-color: rgba(192, 124, 177, 0.582);
+    color: aliceblue;
+}
+footer{
+position: absolute;
+/* or absolute, depending on your layout needs */
+display: flex;
+justify-content: flex-end;
+align-items: center;
+color: white;
+right:50px;
+letter-spacing: 20px;
+bottom: 20px;
+}  
+footer::after{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border: 1px solid black;
+} 
