@@ -23,5 +23,6 @@ File Paths: Use relative paths for images to ensure they load correctly when the
 Semantic HTML: Consider using semantic HTML elements for better structure and accessibility.
 Validation: Validate HTML and CSS for any errors using relevant tools.
 Project Stage:
-###############Current State:
+
+######Current State:
 The code is  in a basic development stage, laying out the structural elements and initial styling for the webpage.
