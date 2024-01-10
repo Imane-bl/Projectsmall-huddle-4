@@ -82,3 +82,90 @@ footer::after{
     border-radius: 50%;
     border: 1px solid black;
 } 
+
+footer:hover{
+color: rgb(243, 56, 103);
+}
+
+
+
+/* Media queries for responsiveness */
+
+/* Tablet screens */
+@media only screen and (max-width: 768px) {
+   
+    .imgconent {
+        flex-direction: column;
+        align-items: center;
+     
+      margin: 20px;
+     
+   
+    }
+    .imgconent img {
+       
+        width: 70%;
+        margin: 20px 0;
+    }
+    .inline h1{
+        margin-top: 30px;
+ 
+    line-height: 2.5rem;
+    }
+    .inline {
+    position: absolute;
+     top:450px;
+      margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 22px;
+    }
+    button{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        width: 240px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+
+      /*  color: brown;
+        position: absolute;
+top:140%;*/
+    }
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 480px) {
+    .imgconent img {
+        width: 100%;
+        margin: 0;  
+    }
+    
+    
+    .inline h1{
+  
+font-size:27px;
+        opacity: 0.9;
+    }
+    .inline p{
+     margin:20px;
+    }
+.inline  {  
+ 
+      position: absolute;
+      top:340px;
+      font-size: 15px;
+margin: 30px 10px;
+line-height: 2rem;
+ }
+ button{
+    margin-top:20px;
+ }
+    
+}
